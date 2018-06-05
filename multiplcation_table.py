@@ -5,5 +5,9 @@ while True:
         print(multiplication_no,'X',i,'=',multiplication_no * i)
     
     continue_choice = str(input("want to continue(y/n): "))
+   
     if continue_choice == 'n':
+        print("Exiting")
         break
+        
+
